@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
 
- /* globales */
 * {
     padding: 0;
     margin: 0;
@@ -18,22 +17,22 @@ header {
 }
 nav {
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 16px;
     padding-top: 25px;
 }
 nav a { 
     margin-left:20px;
 }
 nav a:hover {
-    text-decoration: underline;
     color: #Fc697b;
 }
-section {
-    overflow: hidden;
+
+
+.logoperro {
+    height: 80px;
 }
 
-/* SECCION 1 */
-.sec1 {
+.seccion1 {
     background-image: url(img/perro1.png);
     background-size: cover;
     display: flex;
@@ -43,21 +42,21 @@ section {
     height: 80vh;
 } 
 
-.sec1 h1,.sec1 p,.sec1 button {
+.seccion1 h1,.seccion1 p,.seccion1 button {
     color: white;
     margin-top: 8%;
     margin-left: 20%;
 }
-.sec1 h1 {
+.seccion1 h1 {
     font-size: 5rem;
 }
-.sec1 p {
+.seccion1 p {
     font-size: 1.8rem;
     line-height: 27px;
     margin-top: 3%;
     font-weight: 200;
 }
-.sec1 button {
+.seccion1 button {
     color: #f53a50;
     background-color: white;
     padding: 20px 20px;
@@ -68,40 +67,40 @@ section {
     cursor: pointer;
     margin-top:4%;
 }
-.sec1 button:hover {
+.seccion1 button:hover {
     transition: .3s;
     background-color: #c94970;
     color: white;
     box-shadow: 0px 0px 35px white, 0px 0px 15px white;
 }
-/* SECCION 1 */
 
-/* SECCION 2 */
-.sec2 {
+
+
+.seccion2 {
     margin-bottom: 5%;
 }
-.sec2 img {
+.seccion2 img {
     border-radius: 10px;
     box-shadow: 0px 0px 10px #f53a50;
 }
-.sec2 img:hover {
+.seccion2 img:hover {
     border-radius: 10px;
     box-shadow: 0px 0px 20px #f53a50,0px 0px 10px black;
 }
-.sec2 h1 {
+.seccion2 h1 {
     font-size: 4rem;
     padding: 4% 0;
     display: flex;
     justify-content: center;
     color: #f53a50;
 }
-.sec2 h2 {
+.seccion2 h2 {
     color: #f53a50;
 }
-.sec2 p {
+.seccion2 p {
     color: black;
 }
-.sec2 button {
+.seccion2 button {
     color: white;
     background-color: #f53a50;
     width: 17rem;
@@ -117,7 +116,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-.sec2 button:hover {
+.seccion2 button:hover {
     transition: .3s;
     background-color: #c21d5f;
     box-shadow: 0px 0px 15px #Fc697b, 0px 0px 15px white;
@@ -143,10 +142,10 @@ section {
 .item1,.item2,.item3 {
     width: 25rem;
 }
-/* SECCION 2 */
 
-/* SECCION 3 */
-.sec3 {
+
+
+.seccion3 {
     background-color: rgb(194,29,95);
     background: linear-gradient(24deg, rgba(194,29,95,1) 39%, rgba(245,58,80,1) 74%, rgba(252,105,123,1) 92%);
     height: 40vh;
@@ -155,19 +154,19 @@ section {
     justify-content: center;
     align-items: center;
 }
-.sec3 h1 {
+.seccion3 h1 {
     
     color: white;
     font-size: 4.5rem;
     font-weight:700;
 }
-.sec3 p {
+.seccion3 p {
     color: white;
     font-size: 1.5rem;
     line-height: 27px;
     margin: 1% 0;
 }
-.sec3 button {
+.seccion3 button {
     color: #f53a50;
     background-color: white;
     height: 5rem;
@@ -180,15 +179,15 @@ section {
     margin-top:1%;
 
 }
-.sec3 button:hover {
+.seccion3 button:hover {
     transition: .3s;
     background-color:#f53a50 ;
     color: white;
 }
-/* SECCION 3 */
 
-/* SECCION 4 */
-.sec4 {
+
+
+.seccion4 {
     background-image: url(img/perro2.jpg);
     background-size: cover;
     background-color: #c21d5f;
@@ -196,20 +195,20 @@ section {
     display: flex;
     align-items: center;
 }
-.sec4 h1 {
+.seccion4 h1 {
     font-size: 6rem;
     line-height: 9rem;
     color: white;
     margin-left: 60%;
 }
-/* SECCION 4 */
 
-/* SECCION 5 */
-.sec5 {
+
+
+.seccion5 {
     display: flex;
     justify-content: space-evenly;
 }
-.izq {
+.izquierda {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,7 +216,7 @@ section {
     max-width: 50%;
     margin-top: 10vh;
 }
-.izq p {
+.izquierda p {
     font-size: 1.4rem;
     line-height: 25px;
     display: flex;
@@ -230,14 +229,14 @@ section {
 .p2 {
     padding-bottom: 20%;
 }
-.sec5 h1 {
+.seccion5 h1 {
     color: #f53a50;
     font-size: 5rem;
 }
-.sec5 h2 {
+.seccion5 h2 {
     margin-bottom: 3%;
 }
-.der {
+.derecha {
     margin-top: 12vh;
     
 }
@@ -254,7 +253,7 @@ section {
     flex-direction: column;
     justify-content: center;
 }
-.sec5 img {
+.seccion5 img {
     position: absolute;
     border-radius: 5px;
     left: 63%;
@@ -270,29 +269,29 @@ section {
     left: 70%;
     z-index: -1;
 }
-/* SECCION 5 */
 
-/* SECCION 6 */
-.sec6 {
+
+
+.seccion6 {
     position: relative;
     z-index: -2;
     background-color: rgb(255, 244, 246);
     height: 80vh;
 }
-.sec6 h1 {
+.seccion6 h1 {
     color: #f53a50 ;
     display: flex;
     justify-content: center;
     font-size: 5.5rem;
     padding-top: 5%;
 }
-.sec6 h2 {
+.seccion6 h2 {
     position: relative;
     color: #f53a50;
     font-size: 3rem;
     margin-bottom: 10%;
 }
-.sec6 p {
+.seccion6 p {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 27px;
@@ -304,15 +303,15 @@ section {
     padding-top: 5%;
     padding-left:5%;
 }
-.bloq1 {
+.bloque1 {
     max-width: 340px;
     margin: 0 20px;
 }
-.bloq2 {
+.bloque2 {
     max-width: 340px;
     margin: 0 20px;
 }
-.bloq3 {
+.bloque3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -325,25 +324,25 @@ section {
     left: 10%;
     width: 10%;
 }
-/* SECCION 6 */
 
-/* SECCION 7 */
-.sec7 {
+
+
+.seccion7 {
     display: grid;
     grid-template-columns: 40% 60%;
 }
-.izq7 {
+.izquierda7 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10%;
 }
-.sec7 h1 {
+.seccion7 h1 {
     padding-top: 10%;
     font-size: 5rem;
     color: #f53a50;
 }
-.sec7 p {
+.seccion7 p {
     font-size: 1.7rem;
     line-height: 30px;
     margin: 5% 0;
@@ -351,15 +350,15 @@ section {
 b {
     color: #f53a50;
 }
-.der7 {
+.derecha7 {
     max-width: 55%;
     padding-bottom: 5%;
     margin-left: 15%;
 }
-/* SECCION 7 */
 
-/* SECCION 8 */
-.sec8 {
+
+
+.seccion8 {
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -368,12 +367,12 @@ b {
     background-color: rgb(194,29,95);
     background: linear-gradient(24deg, rgba(194,29,95,1) 39%, rgba(245,58,80,1) 74%, rgba(252,105,123,1) 92%);
 }
-.sec8 h1 {
+.seccion8 h1 {
     color: white;
     font-size: 4rem;
     padding:  0 3%;
 }
-.sec8 p {
+.seccion8 p {
     font-size: 1.4rem;
     line-height: 30px;
     color: white;
@@ -381,7 +380,7 @@ b {
     margin-top: 2%;
     margin-bottom:2%;
 }
-.sec8 a {
+.seccion8 a {
     color: #f53a50;
     background-color: white;
     height: 5rem;
@@ -397,22 +396,22 @@ b {
     text-align: center;
     align-items: center;
 }
-.sec8 a:hover {
+.seccion8 a:hover {
     transition: .4s;
     color: white;
     background-color: #Fc697b;
     box-shadow: 0px 0px 15px white, 0px 0px 5px #f53a50;
 }
-/* SECCION 8 */
 
-/* SECCION 9 */
-.sec9 {
+
+
+.seccion9 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 40%;
 }
-.sec9 form {
+.seccion9 form {
     display: flex;
     flex-direction: column;
     width: 30vw;
@@ -447,22 +446,22 @@ b {
     font-size: 1.5rem;;
     margin-bottom: 4%;
 }
-.sec9 h1 {
+.seccion9 h1 {
     font-size: 4.5rem;
     padding-top: 5%;
     color:  #f53a50;
     margin:0 auto;
 }
-.sub {
+.subjet {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
 }
-.sub label {
+.subjet label {
     margin-bottom: 2%;
     margin-top: 3%;
 }
-.sub input {
+.subjet input {
     outline: none;
     border-style: none;
     width: 127%;
@@ -522,9 +521,9 @@ textarea {
     padding-top: 15px;
     padding-left: 15px;
 }
-/* SECCION 9 */
 
-/* FOOTER */
+
+
 footer {
     display: flex;
     flex-direction: row;
@@ -569,9 +568,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
-/*FOOTER */
 
-/* FOOTER */
+
+
 ::-webkit-scrollbar  {
     display: none;
 }
